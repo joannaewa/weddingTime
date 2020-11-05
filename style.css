@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 1;
+    padding: 30px;
+    text-align: center;
+    background-color: pink;
+    height: 120px;
+    text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+header p {
+  margin: 0;
+}
+
+p {
+  text-align: center;
+  font-size: 60px;
+  font-family:'Lobser', fantasy;
+}
+
+.row {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+}
+
+.column {
+  flex: 50%;
+}
+
+img {
+  padding: 5px;
+}
