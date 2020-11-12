@@ -23,21 +23,31 @@ header p {
 p {
   text-align: center;
   font-size: 60px;
-  font-family:'Lobser', fantasy;
-}
-
-.row {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  padding: 1px;
-}
-
-.column {
-  flex: 50%;
+  font-family: 'Dancing Script', fantasy;
 }
 
 img {
   padding: 5px;
+  width: 100%;
+  height: auto;
+}
+
+/* For mobile phones: */
+
+.column {
+  width = 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop and tablet: */
+  .row {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+  }
+  .column {
+    flex: 50%;
+  }
 }

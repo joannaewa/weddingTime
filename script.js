@@ -21,10 +21,9 @@ var x = setInterval(function() {
 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("days").innerHTML = "IT'S OFFICIAL!";
+    document.getElementById("days").innerHTML = "IT HAPPENED!!!";
     document.getElementById("hours").innerHTML = "OMG";
-    document.getElementById("minutes").innerHTML = "IT HAPPENED!!!";
+    document.getElementById("minutes").innerHTML = "IT'S OFFICIAL!";
     document.getElementById("seconds").innerHTML = "WIFE & HUSBAND";
-
   }
 }, 1000);
